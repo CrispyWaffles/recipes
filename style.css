@@ -40,11 +40,11 @@ img{
     align-items: center;
     text-align: center;   
 }
-.item img{
+.item img:hover{
     transform:scale(1.05);
     transition: all;
     border-radius: 10px;
-    box-shadow: 0 0 5px blue;
+    box-shadow: 0 0 5px mediumpurple;
 }
 .left{
     display:flex;
@@ -79,7 +79,7 @@ img{
     height:700px
 }
 .info{
-    background-color: grey;
+    background-color: silver;
     border-radius: 10px;
     width:30%;
 }

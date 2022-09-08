@@ -1,52 +1,91 @@
-.chef{
+
+#logo{
+    width:200px;
     height:auto;
-    width:400px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
+.inf{
+    font-size: 32px;
+    font-weight:bold;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+}
+.recipetitle{
+    text-align: center;
+}
+
 .button{
     border:3px solid black;
 }
-.button.cheesecake{
-    background-color:gold;
-    width:25%;
-    text-align: center;
-    font-size:18px;
-    font-weight:bold;
+.menu{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    font-size:24px;
+    gap:20px;
 }
-.button.garlic{
-    background-color:green;
-    width:25%;
-    text-align: center;
-    font-size: 18px;
-    font-weight:bold;
+img{
+    width:400px;
+    height:500px;
 }
-.button.parm{
-    background-color:red;
-    width:25%;
-    text-align: center;
-    font-size: 18px;
-    font-weight:bold;
+.item{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding-left:20px;
+    width:400px;
+    align-items: center;
+    text-align: center;   
 }
+.item img{
+    transform:scale(1.05);
+    transition: all;
+    border-radius: 10px;
+    box-shadow: 0 0 5px blue;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 30px;
+    width:420px;
+    height:1507px;
+}
+.img left{
+    border-radius: 10px;
+}
+.menu{
+    gap:40px;
+    display:flex;
+}
+.instructions{
+    margin-top:20px;
+    border-radius: 10px;
+    border:1px solid;
+    height:987px
+}
+.ingredients{
+    border-radius: 10px;
+    background-color: bisque;
+    padding:20px;
+    flex-grow:3;
+}
+.descriptiontop{
+    border-radius:10px;
+    border:1px solid;
+    height:600px
+}
+
 .button.top{
-    background-color:white;
     color:white;
-    width:25%;
     font-weight:bold;
+    border-color:transparent
 }
-.nutrition{
-    border: 2px solid black;
-    margin: 2px;
-    padding:2px;
-    width:20%;
-    background-color:yellow;
-}
-.nutritcake{
-    font-size:18px;
-    text-align:center;
-    font-weight:bold;
-}
-.quickinfo{
-    border:2px solid black;
-    margin:2px;
-    padding:2px;
-    width:20%;
+
+.descriptiontop
+.instructions{
+    padding:0 20px 0px 20px;
 }

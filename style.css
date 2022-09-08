@@ -54,7 +54,7 @@ img{
     width:420px;
     height:1507px;
 }
-.img left{
+.left img{
     border-radius: 10px;
 }
 .menu{
@@ -64,7 +64,7 @@ img{
 .instructions{
     margin-top:20px;
     border-radius: 10px;
-    border:1px solid;
+    border:1px solid gold;
     height:987px
 }
 .ingredients{
@@ -75,14 +75,25 @@ img{
 }
 .descriptiontop{
     border-radius:10px;
-    border:1px solid;
-    height:600px
+    border:1px solid gold;
+    height:700px
+}
+.info{
+    background-color: grey;
+    border-radius: 10px;
+    width:30%;
+}
+.nutrition{
+    background-color:lightyellow;
+    border:1px solid black;
+    width:20%;
 }
 
 .button.top{
     color:white;
     font-weight:bold;
-    border-color:transparent
+    border-color:transparent;
+    
 }
 
 .descriptiontop
